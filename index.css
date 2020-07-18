@@ -1,0 +1,156 @@
+body {background-color: black;}
+
+h1 {color: white;}
+h1 {font-family: 'Lobster', cursive;}
+p{ color: white;
+text-align: left;}
+
+img {width:280px;
+     border-style: double; 
+    border-width: 10px;
+    border-radius: 100%;
+border-color: rgb(7, 7, 7);
+
+}
+
+.navbar ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    align-content: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.navbar li {
+    display:inline;
+    line-height:2em;
+    background: black;
+    margin:0.5em 0;
+    padding:0. 3em;
+    font-size: 3rem;
+    display: flex;
+}
+
+
+.navbar a{
+    text-decoration:none;
+    padding-top: 40px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+    background: rgba(0, 0, 0,25);
+    color: white;
+    margin-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}  
+
+ /* this was used to make my website background video  --> */
+
+.video-bg{
+    position: absolute;
+    z-index: -2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.social-button{
+    position: relative;
+    max-width: 680px;
+    margin: 0auto;
+    padding: 50px 30px;
+    text-align: center;
+    scrollbar-shadow-color: blue;
+    background-color: #f0f2f5;
+}
+
+.about-text{
+    text-align: left;
+}
+
+.text{
+   
+
+}
+
+.about-content-holder{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.about-content-holder div {
+    border: 1px solid red;
+    width: 33%;
+    padding: 10px;
+}
+
+.about-content-holder div:nth-of-type(2) {
+    border: 1px solid red;
+    margin: 0 10px;
+}
+
+.about-content-holder div:nth-of-type(4) {
+    border: 1px solid red;
+    margin: 0 10px;
+}
+
+.co-op {
+    max-width: 60%;
+    display: block;
+    margin: auto;
+
+} 
+
+.dunraven{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.selfpic3{
+    max-width: 40%;
+    display: block;
+    margin: auto;
+}
+.p2{
+    color: white;
+}
+
+.p2{
+    color: white;
+}
+
+.p2{
+    color: white;
+}
+
+@media only screen 
+and (min-width: 375px)
+and (max-width: 667px) {
+
+.content {
+    margin-top: 50px
+}
+
+.co-op {
+    max-width: 60%;
+}
+
+.dunraven {
+        max-width: 100%;
+}
+        
+
+        .selfpic3{
+            max-width: 60%;
+        }
+}
